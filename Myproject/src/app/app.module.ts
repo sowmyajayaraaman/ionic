@@ -10,13 +10,17 @@ import { ListPage } from '../pages/list/list';
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 
+import { StudentPage } from '../pages/student/student';
+import { SuccessPage } from '../pages/success/success';
 @NgModule({
   declarations: [
     MyApp,
     HelloIonicPage,
     ItemDetailsPage,
-    ListPage
-  ],
+    ListPage,
+    StudentPage,
+    SuccessPage
+    ],
   imports: [
     BrowserModule,
     IonicModule.forRoot(MyApp),
@@ -26,7 +30,9 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     MyApp,
     HelloIonicPage,
     ItemDetailsPage,
-    ListPage
+    ListPage,
+    StudentPage,
+    SuccessPage
   ],
   providers: [
     StatusBar,

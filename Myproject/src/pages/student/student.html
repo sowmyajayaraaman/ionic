@@ -1,0 +1,182 @@
+<!--
+  Generated template for the StudentPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title text-center>Student Registration Form</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+
+<ion-list no-lines>
+   <ion-item>
+     <ion-label floating>Student_Name</ion-label>
+     <ion-input type="text" name="name" required></ion-input>
+   </ion-item>
+</ion-list>
+
+<ion-list radio-group no-lines >
+    <ion-list-header>
+        Gender
+      </ion-list-header>
+
+      <ion-item >
+        <ion-label>Male</ion-label>
+        <ion-radio value="M" checked="true" ></ion-radio>
+        </ion-item>
+
+        <ion-item>
+        <ion-label>Female</ion-label>
+        <ion-radio value="F"></ion-radio>
+      </ion-item>
+</ion-list>
+
+
+<ion-list no-lines>
+<ion-item>
+    <ion-label>D.O.B</ion-label>
+    <ion-select>
+        <ion-option  selected>1</ion-option>
+        <ion-option>2</ion-option>
+        <ion-option>3</ion-option>
+        <ion-option>4</ion-option>
+        <ion-option>5</ion-option>
+        <ion-option >6</ion-option>
+        <ion-option>7</ion-option>
+        <ion-option>8</ion-option>
+        <ion-option>9</ion-option>
+        <ion-option>10</ion-option>
+        <ion-option>11</ion-option>
+        <ion-option >12</ion-option>
+        <ion-option>13</ion-option>
+        <ion-option>14</ion-option>
+        <ion-option>15</ion-option>
+        <ion-option>16</ion-option>
+        <ion-option >17</ion-option>
+        <ion-option>18</ion-option>
+        <ion-option>19</ion-option>
+        <ion-option>20</ion-option>
+        <ion-option>21</ion-option>
+        <ion-option>22</ion-option>
+        <ion-option>23</ion-option>
+        <ion-option>24</ion-option>
+        <ion-option>25</ion-option>
+        <ion-option>26</ion-option>
+        <ion-option>27</ion-option>
+        <ion-option>28</ion-option>
+        <ion-option>29</ion-option>
+        <ion-option>30</ion-option>
+        <ion-option>31</ion-option>
+      </ion-select>
+
+    <ion-select >
+      <ion-option value="01" selected>January</ion-option>
+      <ion-option value="02">February</ion-option>
+      <ion-option value="03">March</ion-option>
+      <ion-option value="04">April</ion-option>
+      <ion-option value="05">May</ion-option>
+      <ion-option value="06">June</ion-option>
+      <ion-option value="07">July</ion-option>
+      <ion-option value="08">August</ion-option>
+      <ion-option value="09">September</ion-option>
+      <ion-option value="10">October</ion-option>
+      <ion-option value="11">November</ion-option>
+      <ion-option value="12" checked="true">December</ion-option>
+    </ion-select>
+    <ion-select>
+      <ion-option >1989</ion-option>
+      <ion-option>1990</ion-option>
+      <ion-option>1991</ion-option>
+      <ion-option>1992</ion-option>
+      <ion-option>1993</ion-option>
+      <ion-option >1994</ion-option>
+      <ion-option>1995</ion-option>
+      <ion-option>1996</ion-option>
+      <ion-option>1997</ion-option>
+      <ion-option>1998</ion-option>
+      <ion-option>1999</ion-option>
+      <ion-option >2000</ion-option>
+      <ion-option>2001</ion-option>
+      <ion-option>2002</ion-option>
+      <ion-option>2003</ion-option>
+      <ion-option>2004</ion-option>
+      <ion-option >2005</ion-option>
+      <ion-option>2006</ion-option>
+      <ion-option>2007</ion-option>
+      <ion-option>2008</ion-option>
+      <ion-option>2009</ion-option>
+      <ion-option>2010</ion-option>
+      <ion-option>2011</ion-option>
+      <ion-option>2012</ion-option>
+      <ion-option>2013</ion-option>
+      <ion-option>2014</ion-option>
+      <ion-option>2015</ion-option>
+      <ion-option>2016</ion-option>
+      <ion-option selected>2017</ion-option>
+    </ion-select>
+</ion-item>
+
+
+
+
+<ion-item>
+    <ion-label floating>Password</ion-label>
+    <ion-input type="password" name="pwd"></ion-input>
+</ion-item>
+
+
+
+<ion-item>
+    <ion-label floating>Confirm Password</ion-label>
+    <ion-input type="password" name="cpwd"></ion-input>
+</ion-item>
+
+
+
+
+
+<ion-item>
+    <ion-label floating>Contact</ion-label>
+    <ion-input type="number" name="num"></ion-input>
+</ion-item>
+
+
+
+<ion-item>
+  <ion-label>Nationality</ion-label>
+  <ion-select interface="popover">
+    <ion-option>America</ion-option>
+    <ion-option>Africa</ion-option>
+    <ion-option>Australia</ion-option>
+    <ion-option>India</ion-option>
+    <ion-option>China</ion-option>
+    <ion-option>Indonesia</ion-option>
+    <ion-option>Japan</ion-option>
+    <ion-option>Russia</ion-option>
+    <ion-option>Germany</ion-option>
+    <ion-option>Scotland</ion-option>
+  </ion-select>
+</ion-item>
+
+
+
+<ion-item>
+  <ion-label>I agree to the terms and conditions</ion-label>
+  <ion-checkbox color="dark"></ion-checkbox>
+</ion-item>
+ 
+
+ 
+ <ion-item>
+   <button ion-button large (click)="openPage()">Register</button>
+ </ion-item>
+</ion-list>
+
+</ion-content>
